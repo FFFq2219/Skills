@@ -1,0 +1,14 @@
+interface:
+  display_name: Literature Intelligence
+  short_description: 检索本地PDF并筛选高质量网络论文，构建可追溯证据链
+  default_prompt: Use $literature-intelligence to search my local PDFs and high-quality
+    online literature, then build a claim-level evidence matrix.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
